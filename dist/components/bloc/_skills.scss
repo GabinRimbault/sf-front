@@ -1,0 +1,18 @@
+@use "../../utils/responsive" as responsives;
+
+.skill_experiences {
+  margin-top: 25px;
+
+  @include responsives.Tablet {
+    margin-top: 0;
+  }
+
+  .skill_define {
+    margin-bottom: 30px;
+  }
+
+  .skill_progress {
+    background-color: #373737;
+    height: 2px;
+  }
+}

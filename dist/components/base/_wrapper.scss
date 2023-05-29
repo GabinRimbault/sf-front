@@ -1,0 +1,15 @@
+@use "../../utils/responsive" as responsives;
+
+.wrapper{
+  width: 100%;
+  padding: 0 0.75rem;
+  margin: 0 auto;
+
+  @include responsives.Tablet{
+    max-width: 630px;
+  }
+
+  @include responsives.Desktop{
+    max-width: 960px;
+  }
+}

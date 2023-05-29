@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+  padding: 0 0.75rem;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+
+/*# sourceMappingURL=_wrapper.css.map */

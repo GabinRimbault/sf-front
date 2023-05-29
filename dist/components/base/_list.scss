@@ -1,0 +1,14 @@
+ul, ol {
+  &.list {
+    list-style: none;
+  }
+
+  &.list_link {
+    list-style: none;
+    display: flex;
+
+    li {
+      padding: 0 10px;
+    }
+  }
+}
