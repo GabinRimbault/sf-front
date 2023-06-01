@@ -13,31 +13,29 @@ $shadow-color: rgba(2,12,27,0.7);
 $color-w: #FFFFFF;
 $color-b: #000000;
 $color-grey: #e9ecef;
+$color-default: #A4CAFD;
+
 
 //Background Color
+$bg-default: #243776;
 $bg-notif: #1F2937;
 
 //Color Status
 $success: #30C48D;
+$bg-success: #D9F7E5;
+$hover-success: rgba(48, 196, 141, 0.1);
+
 $critical: #F87F7F;
+$bg-critical: #FEE2E2;
+$hover-critical: rgba(248, 127, 127, 0.1);
+
 $warning: #F9CA16;
+$bg-warning: #FEF3C7;
+$hover-warning: rgba(249, 202, 22, 0.1);
+
 $infos: #76A9FA;
-
-.infos{
-  color: $infos;
-}
-
-.success{
-  color: $success;
-}
-
-.warning{
-  color: $warning;
-}
-
-.critical{
-  color: $critical;
-}
+$bg-infos: #CEF4FC;
+$hover-infos: rgba(118, 169, 250, 0.1);
 
 //Color Language
 $frontend-color: #0ad6ff;
@@ -47,7 +45,6 @@ $javascript-color: #FFF01F;
 $nodejs-color: #ab20fd;
 $java-color: #56fca2;
 
-
 //Font-size
 $title: 26px;
 $sub-title: 24px;
@@ -55,7 +52,6 @@ $min-title: 20px;
 $paragraph: 16px;
 $sub-paragraph: 14px;
 $min-text: 12px;
-
 
 //Font-Family
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800;900&display=swap');

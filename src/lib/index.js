@@ -7,11 +7,11 @@ import List from "./components/base/List";
 import BlocInformation from "./components/bloc/BlocInformation/BlocInformation";
 import Cards from "./components/bloc/Cards/Cards";
 import NavBar from "./components/bloc/NavBar/NavBar";
-import Notification from "./components/bloc/Notification/Notification";
+import Alert from "./components/bloc/Alert/Alert";
 import ProgressBar from "./components/bloc/ProgressBar/ProgressBar";
-import Skills from "./components/bloc/Skills/Skills";
 import Input from "./components/form/Input";
 import InputSelect from "./components/form/InputSelect";
+import Tag from "./components/base/Tag";
 
 
 
@@ -25,9 +25,9 @@ export {
     BlocInformation,
     Cards,
     NavBar,
-    Notification,
+    Alert,
     ProgressBar,
-    Skills,
     Input,
-    InputSelect
+    InputSelect,
+    Tag
 }

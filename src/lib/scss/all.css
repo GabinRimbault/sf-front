@@ -1,48 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Space+Mono&display=swap");
-.infos {
-  color: #76A9FA;
-}
-
-.success {
-  color: #30C48D;
-}
-
-.warning {
-  color: #F9CA16;
-}
-
-.critical {
-  color: #F87F7F;
-}
-
 html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
-  background-color: #112240;
-  color: #FFFFFF;
-  font-family: "Raleway", monospace;
   counter-reset: link;
-}
-
-p {
-  margin: 0;
-}
-
-ol {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-ol a {
-  counter-increment: link;
-}
-ol a:before {
-  content: counter(link) ".";
-  margin-right: 5px;
 }
 
 @keyframes slide-up {
@@ -59,6 +23,104 @@ a {
   color: #ccd6f6;
   text-decoration: none;
 }
+a:hover {
+  color: #0ad6ff;
+}
+
+p {
+  margin: 0;
+}
+
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.primary {
+  color: #112240;
+}
+.primary.bg-color {
+  background-color: #243776;
+}
+.primary.border {
+  border: 1px solid #112240;
+}
+.primary.important {
+  border-top: 5px solid #112240;
+  border-radius: 0;
+}
+
+.default {
+  color: #A4CAFD;
+}
+.default.bg-color {
+  background-color: #243776;
+}
+.default.border {
+  border: 1px solid #A4CAFD;
+}
+.default.important {
+  border-top: 5px solid #A4CAFD;
+  border-radius: 0;
+}
+
+.infos {
+  color: #76A9FA;
+}
+.infos.bg-color {
+  background-color: #CEF4FC;
+}
+.infos.border {
+  border: 1px solid #76A9FA;
+}
+.infos.important {
+  border-top: 5px solid #76A9FA;
+  border-radius: 0;
+}
+
+.success {
+  color: #30C48D;
+}
+.success.bg-color {
+  background-color: #D9F7E5;
+}
+.success.border {
+  border: 1px solid #30C48D;
+}
+.success.important {
+  border-top: 5px solid #30C48D;
+  border-radius: 0;
+}
+
+.warning {
+  color: #F9CA16;
+}
+.warning.bg-color {
+  background-color: #FEF3C7;
+}
+.warning.border {
+  border: 1px solid #F9CA16;
+}
+.warning.important {
+  border-top: 5px solid #F9CA16;
+  border-radius: 0;
+}
+
+.critical {
+  color: #F87F7F;
+}
+.critical.bg-color {
+  background-color: #FEE2E2;
+}
+.critical.border {
+  border: 1px solid #F87F7F;
+}
+.critical.important {
+  border-top: 5px solid #F87F7F;
+  border-radius: 0;
+}
+
 a.primary {
   color: #ccd6f6;
 }
@@ -66,23 +128,54 @@ a.primary:hover {
   color: #0ad6ff;
 }
 a.btn {
+  width: 100%;
+}
+a.btn.primary {
   border: 1px solid #0ad6ff;
   background-color: transparent;
   color: #0ad6ff;
-  width: 100%;
+}
+a.btn.primary:hover {
+  border: 1px solid #0ad6ff;
+  color: #0ad6ff;
+  background-color: rgba(100, 255, 218, 0.1);
+}
+a.btn.success {
+  border: 1px solid #30C48D;
+  background-color: transparent;
+  color: #30C48D;
+}
+a.btn.success:hover {
+  background-color: rgba(48, 196, 141, 0.1);
+}
+a.btn.warning {
+  border: 1px solid #F9CA16;
+  background-color: transparent;
+  color: #F9CA16;
+}
+a.btn.warning:hover {
+  background-color: rgba(249, 202, 22, 0.1);
+}
+a.btn.critical {
+  border: 1px solid #F87F7F;
+  background-color: transparent;
+  color: #F87F7F;
+}
+a.btn.critical:hover {
+  background-color: rgba(248, 127, 127, 0.1);
+}
+a.btn.infos {
+  border: 1px solid #76A9FA;
+  background-color: transparent;
+  color: #76A9FA;
+}
+a.btn.infos:hover {
+  background-color: rgba(118, 169, 250, 0.1);
 }
 @media screen and (min-width: 768px) {
   a.btn {
     width: 250px;
   }
-}
-a.btn:hover {
-  border: 1px solid #0ad6ff;
-  color: #0ad6ff;
-  background-color: rgba(100, 255, 218, 0.1);
-}
-a:hover {
-  color: #0ad6ff;
 }
 
 button {
@@ -151,6 +244,13 @@ h1.heading:after, h2.heading:after, h3.heading:after {
   }
 }
 
+ul a, ol a {
+  counter-increment: link;
+}
+ul a:before, ol a:before {
+  content: counter(link) ".";
+  margin-right: 5px;
+}
 ul.list, ol.list {
   list-style: none;
 }
@@ -180,6 +280,12 @@ p.p-overline {
   font-family: "Space Mono", monospace;
 }
 
+.tag {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #243776;
+}
+
 .progress_bar .bar_style {
   background-color: #e9ecef;
 }
@@ -196,7 +302,7 @@ header.nav_bar nav ul, header.nav_bar nav ol {
   display: flex;
 }
 
-.notification {
+.alert {
   font-weight: bold;
   padding: 15px;
   display: flex;
@@ -205,44 +311,17 @@ header.nav_bar nav ul, header.nav_bar nav ol {
   border-radius: 10px;
   background-color: #1F2937;
 }
-.notification.alert.success {
-  border: 1px solid #30C48D;
-}
-.notification.alert.warning {
-  border: 1px solid #F9CA16;
-}
-.notification.alert.critical {
-  border: 1px solid #F87F7F;
-}
-.notification.alert.infos {
-  border: 1px solid #76A9FA;
-}
-.notification.important {
-  border-radius: 0;
-}
-.notification.important.success {
-  border-top: 5px solid #30C48D;
-}
-.notification.important.warning {
-  border-top: 5px solid #F9CA16;
-}
-.notification.important.critical {
-  border-top: 5px solid #F87F7F;
-}
-.notification.important.infos {
-  border-top: 5px solid #76A9FA;
-}
-.notification p {
+.alert p {
   margin: 0;
   font-weight: normal;
 }
-.notification p h1, .notification p h2, .notification p h3, .notification p h4, .notification p h5, .notification p h6 {
+.alert p h1, .alert p h2, .alert p h3, .alert p h4, .alert p h5, .alert p h6 {
   font-weight: bold;
 }
-.notification p.text-notification {
+.alert p.text-alert {
   width: 90%;
 }
-.notification p.cross-notification {
+.alert p.cross-alert {
   width: 10%;
   text-align: right;
   cursor: pointer;
@@ -291,20 +370,28 @@ header.nav_bar nav ul, header.nav_bar nav ol {
   height: 100%;
 }
 
-.skill_experiences {
-  margin-top: 25px;
+.bread {
+  display: flex;
+  align-items: baseline;
+  padding: 15px;
+  border-radius: 5px;
 }
-@media screen and (min-width: 768px) {
-  .skill_experiences {
-    margin-top: 0;
-  }
+.bread ol {
+  display: flex;
+  flex-direction: row;
 }
-.skill_experiences .skill_define {
-  margin-bottom: 30px;
+.bread ol li:first-child a:before {
+  content: "";
 }
-.skill_experiences .skill_progress {
-  background-color: #373737;
-  height: 2px;
+.bread ol li a {
+  color: #8892b0;
+}
+.bread ol li a:before {
+  margin-left: 10px;
+  content: ">";
+}
+.bread ol li a:hover {
+  color: #8892b0;
 }
 
 input {

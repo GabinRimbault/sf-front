@@ -3,27 +3,5 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
-  background-color: $primary-color;
-  color: $color-w;
-  font-family: $main-family;
   counter-reset: link;
-}
-
-p{
-  margin: 0;
-}
-
-ol{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  a{
-    counter-increment : link;
-
-    &:before {
-      content : counter(link) ".";
-      margin-right: 5px;
-    }
-  }
 }

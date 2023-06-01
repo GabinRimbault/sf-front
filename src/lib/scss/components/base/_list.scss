@@ -1,4 +1,13 @@
 ul, ol {
+  a{
+    counter-increment : link;
+
+    &:before {
+      content : counter(link) ".";
+      margin-right: 5px;
+    }
+  }
+
   &.list {
     list-style: none;
   }
