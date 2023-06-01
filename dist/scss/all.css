@@ -211,9 +211,6 @@ header.nav_bar nav {
 header.nav_bar nav ul, header.nav_bar nav ol {
   display: flex;
 }
-header.nav_bar nav ul li, header.nav_bar nav ol li {
-  margin-right: 15px;
-}
 
 .notification {
   font-weight: bold;
