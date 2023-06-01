@@ -1,18 +1,51 @@
 # FrontEnd - SF Project 👋
 
-[![Branch](https://img.shields.io/static/v1?label=Branch&message=Master&color=blue)](https://gitlab.com/GabinRimbault/template_project)  [![Version](https://img.shields.io/static/v1?label=Version&message=0.0.1&color=blue)](https://gitlab.com/GabinRimbault/template_project) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Frimbault_gabin)](https://twitter.com/rimbault_gabin)
+[![Branch](https://img.shields.io/static/v1?label=Branch&message=Master&color=blue)](https://gitlab.com/GabinRimbault/template_project)  [![Version](https://img.shields.io/static/v1?label=Version&message=0.1.0&color=blue)](https://gitlab.com/GabinRimbault/template_project) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Frimbault_gabin)](https://twitter.com/rimbault_gabin)
 
 ## New VERSION
-- [0.0.1](Doc/v0.0.1.md)
+- [0.1.0](Doc/v0.1.0.md)
 
 ## Install
 
 **Requis :** You need to have the latest version of the SF-Front.
 
-    git clone https://github.com/GabinRimbault/sf-frontend.git
-    cd sf-front
-	npm install
-    npm run start
+	npm i @gabinrimbault/sf-frontend
+
+## Usage/Examples
+
+```javascript
+import { Title } from '@gabinrimbault/sf-frontend'
+
+function App() {
+  return <Title lvl="h1">My Title</Title>
+}
+```
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/GabinRimbault/sf-front.git
+```
+
+Go to the project directory
+
+```bash
+  cd sf-front
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
 
 ## Colors
 
@@ -40,16 +73,11 @@ To see other color variables, please refer to the scss variables file.
 
 ## Roadmap
 
-- v 0.0.2
+- v 0.2.0
     - Add new Components SCSS
-        - Content
-        - Img
         - Improve existing components
     - Add new Components React
         - Improve existing components
-
-
-- v 0.0.3<>v1.0.0
 
 
 ## Authors
