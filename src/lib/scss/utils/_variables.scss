@@ -14,57 +14,29 @@ $color-w: #FFFFFF;
 $color-b: #000000;
 $color-grey: #e9ecef;
 
+//Background Color
+$bg-notif: #1F2937;
+
 //Color Status
-$success: #0f5132;
-$bg-success: #d1e7dd;
-$border-success: #badbcc;
-
-$critical: #842029;
-$bg-critical: #f8d7da;
-$border-critical: #f5c2c7;
-
-$warning: #664d03;
-$bg-warning: #fff3cd;
-$border-warning: #ffecb5;
-
-$infos: #055160;
-$bg-infos: #cff4fc;
-$border-infos: #b6effb;
+$success: #30C48D;
+$critical: #F87F7F;
+$warning: #F9CA16;
+$infos: #76A9FA;
 
 .infos{
-  background-color: $bg-infos;
-  border-color: $border-infos;
-
-  *{
-    color: $infos;
-  }
+  color: $infos;
 }
 
 .success{
-  background-color: $bg-success;
-  border-color: $border-success;
-
-  *{
-    color: $success;
-  }
+  color: $success;
 }
 
 .warning{
-  background-color: $bg-warning;
-  border-color: $border-warning;
-
-  *{
-    color: $warning;
-  }
+  color: $warning;
 }
 
 .critical{
-  background-color: $bg-critical;
-  border-color: $border-critical;
-
-  *{
-    color: $critical;
-  }
+  color: $critical;
 }
 
 //Color Language

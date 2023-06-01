@@ -14,22 +14,22 @@
   }
 
   &.infos{
-    border-bottom: 10px solid $border-infos;
+    border-bottom: 10px solid $infos;
     color: $infos;
   }
 
   &.success{
-    border-bottom: 10px solid $border-success;
+    border-bottom: 10px solid $success;
     color: $success;
   }
 
   &.warning{
-    border-bottom: 10px solid $border-warning;
+    border-bottom: 10px solid $warning;
     color: $warning;
   }
 
   &.critical{
-    border-bottom: 10px solid $border-critical;
+    border-bottom: 10px solid $critical;
     color: $critical;
   }
 }
