@@ -1,0 +1,20 @@
+@use "../../utils/responsive" as responsives;
+
+p{
+  &.p-description{
+    font-family: $main-family;
+    color: $tertiary-color;
+    font-size: 16px;
+    margin: 20px 0 0;
+
+    @include responsives.Tablet{
+      margin: 20px 10px 0;
+    }
+  }
+  &.p-overline{
+    margin: 0;
+    color: $hover-color;
+    font-size: 16px;
+    font-family: "Space Mono", monospace;
+  }
+}

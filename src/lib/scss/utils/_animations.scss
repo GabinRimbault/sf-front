@@ -1,0 +1,10 @@
+@keyframes slide-up {
+  from {
+    margin-top: 100%;
+    height: 300%;
+  }
+  to {
+    margin-top: 10px;
+    height: 100%;
+  }
+}

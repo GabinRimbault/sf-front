@@ -1,0 +1,95 @@
+//Color
+$primary-color: #112240;
+$secondary-color: #233554;
+$tertiary-color: #8892b0;
+
+//Link Color
+$link-color: #ccd6f6;
+$hover-color: #0ad6ff;
+$hover-op-color: rgba(100,255,218,0.1);
+$shadow-color: rgba(2,12,27,0.7);
+
+//Default Color
+$color-w: #FFFFFF;
+$color-b: #000000;
+$color-grey: #e9ecef;
+
+//Color Status
+$success: #0f5132;
+$bg-success: #d1e7dd;
+$border-success: #badbcc;
+
+$critical: #842029;
+$bg-critical: #f8d7da;
+$border-critical: #f5c2c7;
+
+$warning: #664d03;
+$bg-warning: #fff3cd;
+$border-warning: #ffecb5;
+
+$infos: #055160;
+$bg-infos: #cff4fc;
+$border-infos: #b6effb;
+
+.infos{
+  background-color: $bg-infos;
+  border-color: $border-infos;
+
+  *{
+    color: $infos;
+  }
+}
+
+.success{
+  background-color: $bg-success;
+  border-color: $border-success;
+
+  *{
+    color: $success;
+  }
+}
+
+.warning{
+  background-color: $bg-warning;
+  border-color: $border-warning;
+
+  *{
+    color: $warning;
+  }
+}
+
+.critical{
+  background-color: $bg-critical;
+  border-color: $border-critical;
+
+  *{
+    color: $critical;
+  }
+}
+
+//Color Language
+$frontend-color: #0ad6ff;
+$html-color: rgb(255, 34, 83);
+$react-color: rgb(210, 108, 213);
+$javascript-color: #FFF01F;
+$nodejs-color: #ab20fd;
+$java-color: #56fca2;
+
+
+//Font-size
+$title: 26px;
+$sub-title: 24px;
+$min-title: 20px;
+$paragraph: 16px;
+$sub-paragraph: 14px;
+$min-text: 12px;
+
+
+//Font-Family
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Space+Mono&display=swap');
+
+$main-family: 'Raleway', monospace;
+$secondary-family: 'Roboto Serif', serif;
+$code-family: 'Space Mono', monospace;

@@ -1,0 +1,48 @@
+@use "../../utils/responsive" as responsives;
+
+a{
+  color: $link-color;
+  text-decoration: none;
+
+  &.primary{
+    color: $link-color;
+
+    &:hover{
+      color: $hover-color;
+    }
+  }
+
+  &.btn{
+    border: 1px solid $hover-color;
+    background-color: transparent;
+    color: $hover-color;
+    width: 100%;
+
+    @include responsives.Tablet{
+      width: 250px;
+    }
+
+    &:hover{
+      border: 1px solid $hover-color;
+      color: $hover-color;
+      background-color: $hover-op-color;
+    }
+  }
+
+  &:hover{
+    color: $hover-color;
+  }
+}
+
+
+button{
+  border: 1px solid $hover-color;
+  background-color: transparent;
+  color: $hover-color;
+
+  &:hover{
+    border: 1px solid $hover-color;
+    color: $hover-color;
+    background-color: $hover-op-color;
+  }
+}

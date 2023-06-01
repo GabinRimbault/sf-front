@@ -1,0 +1,11 @@
+header.nav_bar{
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+
+    ul, ol{
+      display: flex;
+    }
+  }
+}
