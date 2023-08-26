@@ -19,9 +19,8 @@ function Button(_ref) {
       href
     } = _ref,
     props = _objectWithoutProperties(_ref, _excluded);
-  const Type = typeof href === "string" ? _reactRouterDom.Link : "button";
   const style = classBtn !== undefined ? classBtn : undefined;
-  return /*#__PURE__*/_react.default.createElement(Type, _extends({
+  return /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, _extends({
     className: style,
     to: href
   }, props), children);

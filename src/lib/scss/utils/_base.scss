@@ -3,5 +3,8 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
-  counter-reset: link;
+  background-color: $bg-w;
+  color: $primary-color;
+  font-family: $main-family;
 }
+

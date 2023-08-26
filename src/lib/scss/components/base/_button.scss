@@ -2,10 +2,10 @@
 
 a{
   &.primary{
-    color: $link-color;
+    color: $color-w;
 
     &:hover{
-      color: $hover-color;
+
     }
   }
 
@@ -13,14 +13,18 @@ a{
     width: 100%;
 
     &.primary{
-      border: 1px solid $hover-color;
-      background-color: transparent;
-      color: $hover-color;
+      border: 1px solid $primary-color;
+      background-color: $primary-color;
+      color: $color-w;
+    }
+
+    &.secondary{
+      border: 1px solid $secondary-color;
+      background-color: $secondary-color;
+      color: $color-w;
 
       &:hover{
-        border: 1px solid $hover-color;
-        color: $hover-color;
-        background-color: $hover-op-color;
+        background-color: $teinte-secondary;
       }
     }
 
@@ -64,6 +68,10 @@ a{
       }
     }
 
+    &.btn-rounded{
+      border-radius: 25px;
+    }
+
     @include responsives.Tablet{
       width: 250px;
     }
@@ -71,14 +79,3 @@ a{
 }
 
 
-button{
-  border: 1px solid $hover-color;
-  background-color: transparent;
-  color: $hover-color;
-
-  &:hover{
-    border: 1px solid $hover-color;
-    color: $hover-color;
-    background-color: $hover-op-color;
-  }
-}

@@ -1,0 +1,70 @@
+/* ----------------------------- GENERAL ----------------------------- */
+//Default Color
+$color-w: #FFFFFF;
+$color-b: #000000;
+$color-grey: #e9ecef;
+$color-default: #A4CAFD;
+
+//Color
+$primary-color: #112240;
+$secondary-color: #233554;
+$tertiary-color: #8892b0;
+
+//Link Color
+$link-color: #ccd6f6;
+$hover-color: #0ad6ff;
+$hover-op-color: rgba(100,255,218,0.1);
+$shadow-color: rgba(2,12,27,0.7);
+
+//Background Color
+$bg-default: #112240;
+$bg-secondary: #243776;
+$bg-w: $color-w;
+
+//Border Color
+$border-default: $hover-op-color;
+
+//Color Status
+$success: #30C48D;
+$bg-success: #D9F7E5;
+$hover-success: rgba(48, 196, 141, 0.1);
+
+$critical: #F87F7F;
+$bg-critical: #FEE2E2;
+$hover-critical: rgba(248, 127, 127, 0.1);
+
+$warning: #F9CA16;
+$bg-warning: #FEF3C7;
+$hover-warning: rgba(249, 202, 22, 0.1);
+
+$infos: #76A9FA;
+$bg-infos: #CEF4FC;
+$hover-infos: rgba(118, 169, 250, 0.1);
+
+//Color Language
+$code-color: #d63384;
+$frontend-color: #0ad6ff;
+$html-color: rgb(255, 34, 83);
+$react-color: rgb(210, 108, 213);
+$javascript-color: #FFF01F;
+$nodejs-color: #ab20fd;
+$java-color: #56fca2;
+
+/* ----------------------------- FONT ----------------------------- */
+
+//Font-size
+$title: 26px;
+$sub-title: 24px;
+$min-title: 20px;
+$paragraph: 16px;
+$sub-paragraph: 14px;
+$min-text: 12px;
+
+//Font-Family
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Space+Mono&display=swap');
+
+$main-family: 'Raleway', monospace;
+$secondary-family: 'Roboto Serif', serif;
+$code-family: 'Space Mono', monospace;

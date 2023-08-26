@@ -1,12 +1,7 @@
 ul, ol {
-  a{
-    counter-increment : link;
+  margin: 0;
+  padding: 0;
 
-    &:before {
-      content : counter(link) ".";
-      margin-right: 5px;
-    }
-  }
 
   &.list {
     list-style: none;

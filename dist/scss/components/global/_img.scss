@@ -1,0 +1,10 @@
+img{
+
+  &.img_border{
+    border: 2px solid $primary-color;
+  }
+
+  &.img_rounded{
+    border-radius: 10px;
+  }
+}

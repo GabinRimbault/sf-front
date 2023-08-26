@@ -16,6 +16,7 @@ h1, h2, h3{
   }
 
   &.heading{
+    color: $primary-color;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -25,7 +26,6 @@ h1, h2, h3{
     white-space: nowrap;
     counter-increment : link;
     font-family: $main-family;
-    color: $link-color;
     padding: 0 25px;
 
     @include responsives.Tablet{

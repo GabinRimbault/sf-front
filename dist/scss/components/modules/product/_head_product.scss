@@ -1,0 +1,49 @@
+@use "../../../utils/responsive" as responsives;
+
+.head_product{
+  display: flex;
+  flex-direction: column;
+
+
+  @include responsives.Tablet{
+    margin-top: 50px;
+    flex-direction: row;
+  }
+
+  .content_headproduct{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+
+
+    @include responsives.Tablet{
+      max-width: 50%;
+    }
+
+    a{
+      margin-top: 15px;
+    }
+
+    &.left_border{
+      p{
+        border-left: 6px solid $complementary;
+        padding: 0 0 0 10px;
+        margin-left: -15px;
+      }
+    }
+
+    &.right_border{
+      p{
+        border-right: 6px solid $complementary;
+        padding: 0 10px 0 0;
+        margin-right: -15px;
+      }
+    }
+  }
+
+  .img_headproduct{
+    img{
+      border-radius: 10px;
+    }
+  }
+}

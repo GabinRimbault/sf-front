@@ -1,0 +1,30 @@
+.gpt-tabs{
+  width: 100%;
+  padding: 25px;
+
+
+  .tab-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+
+    button{
+      flex: 1;
+      padding: 10px;
+      border: none;
+      background-color: $color-w;
+      color: $primary-color;
+      cursor: pointer;
+
+      &.active{
+        background-color: $color-default;
+        color: $color-w;
+      }
+
+    }
+  }
+  .tab-content{
+    margin-top: 10px;
+  }
+}

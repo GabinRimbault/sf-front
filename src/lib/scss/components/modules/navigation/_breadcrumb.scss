@@ -1,0 +1,33 @@
+.bread{
+  display: flex;
+  align-items: baseline;
+  padding: 15px;
+  border-radius: 5px;
+
+  ol{
+    display: flex;
+    flex-direction: row;
+
+    li{
+      &:first-child{
+        a{
+          &:before{
+            content: "";
+          }
+        }
+      }
+      a{
+        color: $primary-color;
+        &:before{
+          margin-left: 10px;
+          margin-right: 5px;
+          content: ">";
+        }
+
+        &:hover{
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}

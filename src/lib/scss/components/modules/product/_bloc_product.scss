@@ -1,0 +1,20 @@
+@use "../../../utils/responsive" as responsives;
+
+.bloc_product{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+
+  @include responsives.Desktop{
+    flex-direction: row;
+  }
+
+  img{
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+  p{
+    padding: 0 20px;
+  }
+}

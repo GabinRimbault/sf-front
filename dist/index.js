@@ -3,10 +3,28 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+Object.defineProperty(exports, "Alert", {
+  enumerable: true,
+  get: function get() {
+    return _Alert.default;
+  }
+});
 Object.defineProperty(exports, "BlocInformation", {
   enumerable: true,
   get: function get() {
     return _BlocInformation.default;
+  }
+});
+Object.defineProperty(exports, "BlocProduct", {
+  enumerable: true,
+  get: function get() {
+    return _BlocProduct.default;
+  }
+});
+Object.defineProperty(exports, "Breadcrumb", {
+  enumerable: true,
+  get: function get() {
+    return _Breadcrumb.default;
   }
 });
 Object.defineProperty(exports, "Button", {
@@ -27,6 +45,24 @@ Object.defineProperty(exports, "Content", {
     return _Content.default;
   }
 });
+Object.defineProperty(exports, "ExposeProduct", {
+  enumerable: true,
+  get: function get() {
+    return _ExposeProduct.default;
+  }
+});
+Object.defineProperty(exports, "Footer", {
+  enumerable: true,
+  get: function get() {
+    return _Footer.default;
+  }
+});
+Object.defineProperty(exports, "GptTabs", {
+  enumerable: true,
+  get: function get() {
+    return _GptTabs.default;
+  }
+});
 Object.defineProperty(exports, "Img", {
   enumerable: true,
   get: function get() {
@@ -45,6 +81,12 @@ Object.defineProperty(exports, "InputSelect", {
     return _InputSelect.default;
   }
 });
+Object.defineProperty(exports, "Lame", {
+  enumerable: true,
+  get: function get() {
+    return _Lame.default;
+  }
+});
 Object.defineProperty(exports, "List", {
   enumerable: true,
   get: function get() {
@@ -57,22 +99,22 @@ Object.defineProperty(exports, "NavBar", {
     return _NavBar.default;
   }
 });
-Object.defineProperty(exports, "Notification", {
-  enumerable: true,
-  get: function get() {
-    return _Notification.default;
-  }
-});
 Object.defineProperty(exports, "ProgressBar", {
   enumerable: true,
   get: function get() {
     return _ProgressBar.default;
   }
 });
-Object.defineProperty(exports, "Skills", {
+Object.defineProperty(exports, "Tabs", {
   enumerable: true,
   get: function get() {
-    return _Skills.default;
+    return _Tabs.default;
+  }
+});
+Object.defineProperty(exports, "Tag", {
+  enumerable: true,
+  get: function get() {
+    return _Tag.default;
   }
 });
 Object.defineProperty(exports, "Title", {
@@ -89,16 +131,23 @@ Object.defineProperty(exports, "Wrapper", {
 });
 var _Title = _interopRequireDefault(require("./components/base/Title"));
 var _Wrapper = _interopRequireDefault(require("./components/base/Wrapper"));
+var _Lame = _interopRequireDefault(require("./components/base/Lame"));
 var _Button = _interopRequireDefault(require("./components/base/Button"));
 var _Content = _interopRequireDefault(require("./components/base/Content"));
 var _Img = _interopRequireDefault(require("./components/base/Img"));
 var _List = _interopRequireDefault(require("./components/base/List"));
-var _BlocInformation = _interopRequireDefault(require("./components/bloc/BlocInformation/BlocInformation"));
-var _Cards = _interopRequireDefault(require("./components/bloc/Cards/Cards"));
-var _NavBar = _interopRequireDefault(require("./components/bloc/NavBar/NavBar"));
-var _Notification = _interopRequireDefault(require("./components/bloc/Notification/Notification"));
-var _ProgressBar = _interopRequireDefault(require("./components/bloc/ProgressBar/ProgressBar"));
-var _Skills = _interopRequireDefault(require("./components/bloc/Skills/Skills"));
+var _BlocInformation = _interopRequireDefault(require("./components/modules/Information/BlocInformation/BlocInformation"));
+var _Cards = _interopRequireDefault(require("./components/modules/General/Cards/Cards"));
+var _NavBar = _interopRequireDefault(require("./components/modules/Navigation/NavBar/NavBar"));
+var _Alert = _interopRequireDefault(require("./components/modules/General/Alert/Alert"));
+var _ProgressBar = _interopRequireDefault(require("./components/modules/General/ProgressBar/ProgressBar"));
 var _Input = _interopRequireDefault(require("./components/form/Input"));
 var _InputSelect = _interopRequireDefault(require("./components/form/InputSelect"));
+var _Tag = _interopRequireDefault(require("./components/base/Tag"));
+var _Breadcrumb = _interopRequireDefault(require("./components/modules/Navigation/Breadcrumb/Breadcrumb"));
+var _GptTabs = _interopRequireDefault(require("./components/modules/General/Tabs/GptTabs"));
+var _Tabs = _interopRequireDefault(require("./components/modules/General/Tabs/Tabs"));
+var _Footer = _interopRequireDefault(require("./components/modules/Navigation/Footer/Footer"));
+var _BlocProduct = _interopRequireDefault(require("./components/modules/Product/BlocProduct/BlocProduct"));
+var _ExposeProduct = _interopRequireDefault(require("./components/modules/Product/ExposeProduct/ExposeProduct"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

@@ -1,9 +1,18 @@
 input{
-  width: 95%;
-  display: block;
-  margin: 0 auto;
-  color: #212529;
-  background-color: #fff;
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  &[type='text']{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  &[type='checkbox']{
+    margin-left: 5px;
+  }
+
+  &[type='radio']{
+    margin-left: 5px;
+  }
 }

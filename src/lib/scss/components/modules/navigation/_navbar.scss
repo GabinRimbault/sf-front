@@ -1,0 +1,25 @@
+header.nav_bar{
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+
+    ul, ol{
+      display: flex;
+      list-style: none;
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+
+      li{
+        margin-right: 5px;
+
+        a{
+          &::before{
+            content: "";
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,14 +1,36 @@
+//Base
 @import "./base/button";
 @import "./base/title";
-@import "./base/wrapper";
-@import "./base/list";
 @import "./base/content";
+@import "./base/list";
+@import "./base/tag";
+@import "./base/wrapper";
+@import "./base/lame";
 
-@import "bloc/progress_bar";
-@import "bloc/navbar";
-@import "bloc/notification";
-@import "bloc/bloc_information";
-@import "bloc/cards";
-@import "bloc/skills";
+//Modules
 
+//General
+@import "modules/general/cards";
+@import "modules/general/progress_bar";
+@import "modules/general/tabs";
+@import "modules/general/alert";
+
+//Information
+@import "modules/information/bloc_information";
+
+//Product
+@import "modules/product/bloc_product";
+@import "modules/product/head_product";
+@import "modules/product/expose_product";
+
+//Navigation
+@import "modules/navigation/breadcrumb";
+@import "modules/navigation/navbar";
+@import "modules/navigation/headbar";
+@import "modules/navigation/footer";
+
+//Form
 @import "./form/input";
+
+//Global
+@import "./global/global";

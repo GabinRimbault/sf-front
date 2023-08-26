@@ -1,0 +1,16 @@
+.wrapper_example{
+  border: 1px solid $border-default;
+  .content_example{
+    padding: 25px 20px 0 20px;
+  }
+  .code_example{
+    padding: 20px;
+  }
+}
+
+pre{
+  margin: 0 !important;
+}
+code{
+  color: $code-color !important;
+}
