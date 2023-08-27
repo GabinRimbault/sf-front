@@ -1,9 +1,9 @@
 # FrontEnd - SF Project 👋
 
-[![Branch](https://img.shields.io/static/v1?label=Branch&message=Master&color=blue)](https://gitlab.com/GabinRimbault/template_project)  [![Version](https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue)](https://gitlab.com/GabinRimbault/template_project) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Frimbault_gabin)](https://twitter.com/rimbault_gabin)
+[![Branch](https://img.shields.io/static/v1?label=Branch&message=v1.0.2&color=blue)](https://gitlab.com/GabinRimbault/template_project)  [![Version](https://img.shields.io/static/v1?label=Version&message=1.0.2&color=blue)](https://gitlab.com/GabinRimbault/template_project) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Frimbault_gabin)](https://twitter.com/rimbault_gabin)
 
 ## New VERSION
-- [1.0.1](Doc/v1.0.1.md)
+- [1.0.2](Doc/v1.0.2.md)
 
 ## Install
 
@@ -74,10 +74,7 @@ To see other color variables, please refer to the scss variables file.
 ## Roadmap
 
 - v 1.1.0
-    - Add new Components SCSS
-        - Improve existing components
-    - Add new Components React
-        - Improve existing components
+    - Create Documentation
 
 
 ## Authors

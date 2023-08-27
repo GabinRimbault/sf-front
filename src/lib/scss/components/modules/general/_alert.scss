@@ -2,27 +2,29 @@
   font-weight: bold;
   padding: 15px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 20px;
   border-radius: 10px;
   background-color: $bg-secondary;
 
-  p{
-    margin: 0;
-    font-weight: normal;
+  .content_alert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-    h1, h2, h3, h4, h5, h6{
-      font-weight: bold;
+    p{
+      font-weight: $font-weight-regular;
+      &.cross-alert{
+        cursor: pointer;
+      }
     }
+  }
 
-    &.text-alert{
-      width: 90%;
-    }
-
-    &.cross-alert{
-      width: 10%;
-      text-align: right;
-      cursor: pointer;
+  .content_additional{
+    p{
+      font-weight: $font-weight-regular;
+      margin: 10px;
     }
   }
 }

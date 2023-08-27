@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif&family=Space+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Mono:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;1,700&family=Ubuntu:wght@300;400;500;700&display=swap");
 html, body {
   margin: 0;
   padding: 0;
@@ -181,6 +181,9 @@ ul.list_link li, ol.list_link li {
   background-color: #F0F0F0;
   margin: 0 5px;
 }
+.tag.rounded {
+  border-radius: 20px !important;
+}
 
 .wrapper {
   width: 100%;
@@ -262,25 +265,26 @@ pre.bloc-code {
   font-weight: bold;
   padding: 15px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 20px;
   border-radius: 10px;
   background-color: #243776;
 }
-.alert p {
-  margin: 0;
-  font-weight: normal;
+.alert .content_alert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.alert p h1, .alert p h2, .alert p h3, .alert p h4, .alert p h5, .alert p h6 {
-  font-weight: bold;
+.alert .content_alert p {
+  font-weight: 400;
 }
-.alert p.text-alert {
-  width: 90%;
-}
-.alert p.cross-alert {
-  width: 10%;
-  text-align: right;
+.alert .content_alert p.cross-alert {
   cursor: pointer;
+}
+.alert .content_additional p {
+  font-weight: 400;
+  margin: 10px;
 }
 
 .bloc_information {
@@ -650,6 +654,34 @@ img.img_border {
 }
 img.img_rounded {
   border-radius: 10px;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-small {
+  font-size: 0.8rem;
+}
+
+.font-medium {
+  font-size: 1rem;
+}
+
+.font-large {
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=all.css.map */
