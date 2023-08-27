@@ -7,7 +7,8 @@ export default function Alert({
   classAlert,
   children,
   name,
-  cross = true
+  cross = true,
+  additionalContent
 }) {
   const idDel = useRef("block");
   const style =
@@ -23,12 +24,17 @@ export default function Alert({
     <Wrapper>
       <div ref={idDel} id={name} className={style}>
         <>
-          <Content classContent="text-alert">
-            {children}
-          </Content>
-          <Content classContent="cross-alert">
-            {cross ? <i onClick={handleDel} className="fa-solid fa-xmark"></i> : ""}
-          </Content>
+          <div className={"content_alert"}>
+            <Content classContent="text-alert">
+              {children}
+            </Content>
+            <Content classContent="cross-alert">
+              {cross ? <i onClick={handleDel} className="fa-solid fa-xmark"></i> : ""}
+            </Content>
+          </div>
+          <div className={"content_additional"}>
+            {additionalContent ? additionalContent : null}
+          </div>
         </>
       </div>
     </Wrapper>

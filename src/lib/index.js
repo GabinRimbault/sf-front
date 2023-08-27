@@ -22,6 +22,7 @@ import ExposeProduct from "./components/modules/Product/ExposeProduct/ExposeProd
 import HeadBar from "./components/modules/Navigation/HeadBar/HeadBar";
 import HeadProduct from "./components/modules/Product/HeadProduct/HeadProduct";
 import Code from "./components/base/Code";
+import GptCards from "./components/modules/General/Cards/GptCards";
 
 
 
@@ -49,5 +50,6 @@ export {
     Footer,
     HeadBar,
     HeadProduct,
-    Code
+    Code,
+    GptCards
 }
