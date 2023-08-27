@@ -39,6 +39,12 @@ Object.defineProperty(exports, "Cards", {
     return _Cards.default;
   }
 });
+Object.defineProperty(exports, "Code", {
+  enumerable: true,
+  get: function get() {
+    return _Code.default;
+  }
+});
 Object.defineProperty(exports, "Content", {
   enumerable: true,
   get: function get() {
@@ -61,6 +67,18 @@ Object.defineProperty(exports, "GptTabs", {
   enumerable: true,
   get: function get() {
     return _GptTabs.default;
+  }
+});
+Object.defineProperty(exports, "HeadBar", {
+  enumerable: true,
+  get: function get() {
+    return _HeadBar.default;
+  }
+});
+Object.defineProperty(exports, "HeadProduct", {
+  enumerable: true,
+  get: function get() {
+    return _HeadProduct.default;
   }
 });
 Object.defineProperty(exports, "Img", {
@@ -150,4 +168,7 @@ var _Tabs = _interopRequireDefault(require("./components/modules/General/Tabs/Ta
 var _Footer = _interopRequireDefault(require("./components/modules/Navigation/Footer/Footer"));
 var _BlocProduct = _interopRequireDefault(require("./components/modules/Product/BlocProduct/BlocProduct"));
 var _ExposeProduct = _interopRequireDefault(require("./components/modules/Product/ExposeProduct/ExposeProduct"));
+var _HeadBar = _interopRequireDefault(require("./components/modules/Navigation/HeadBar/HeadBar"));
+var _HeadProduct = _interopRequireDefault(require("./components/modules/Product/HeadProduct/HeadProduct"));
+var _Code = _interopRequireDefault(require("./components/base/Code"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

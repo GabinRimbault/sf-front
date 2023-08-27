@@ -11,10 +11,11 @@ function HeadBar(_ref) {
   let {
     classHeadBar,
     classLink = "liseret",
-    children
+    data
   } = _ref;
   const style = classHeadBar ? "headbar " + classHeadBar : "headbar";
-  const dataNav = {
+  let listNav = null;
+  if (data != null) listNav = data;else listNav = {
     home: {
       liens: ["/", "Accueil"]
     },
@@ -34,7 +35,7 @@ function HeadBar(_ref) {
   })), /*#__PURE__*/_react.default.createElement(_List.default, {
     type: "ul",
     classLink: classLink,
-    data: dataNav
+    data: listNav
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "social_content"
   }, /*#__PURE__*/_react.default.createElement("i", {

@@ -22,7 +22,7 @@ function HeadProduct(_ref) {
     className: "img_headproduct"
   }, /*#__PURE__*/React.createElement(_Img.default, {
     alt: "#",
-    src: "https://loremflickr.com/640/360"
+    src: "https://fakeimg.pl/600x400/"
   }))) : /*#__PURE__*/React.createElement(_Lame.default, {
     className: style
   }, /*#__PURE__*/React.createElement("div", {
@@ -30,7 +30,7 @@ function HeadProduct(_ref) {
   }, /*#__PURE__*/React.createElement(_Img.default, {
     alt: "#",
     classImg: "img_border img_rounded",
-    src: "https://loremflickr.com/640/360"
+    src: "https://fakeimg.pl/600x400/"
   })), /*#__PURE__*/React.createElement("div", {
     className: "content_headproduct right_border"
   }, children)));
