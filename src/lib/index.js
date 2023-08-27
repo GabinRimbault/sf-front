@@ -19,7 +19,9 @@ import Tabs from "./components/modules/General/Tabs/Tabs";
 import Footer from "./components/modules/Navigation/Footer/Footer";
 import BlocProduct from "./components/modules/Product/BlocProduct/BlocProduct";
 import ExposeProduct from "./components/modules/Product/ExposeProduct/ExposeProduct";
-
+import HeadBar from "./components/modules/Navigation/HeadBar/HeadBar";
+import HeadProduct from "./components/modules/Product/HeadProduct/HeadProduct";
+import Code from "./components/base/Code";
 
 
 
@@ -44,5 +46,8 @@ export {
     Lame,
     GptTabs,
     Tabs,
-    Footer
+    Footer,
+    HeadBar,
+    HeadProduct,
+    Code
 }

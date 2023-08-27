@@ -12,13 +12,13 @@ export default function HeadProduct({classHeadProduct, imgTurn = 'right', childr
             {children}
           </div>
           <div className={"img_headproduct"}>
-            <Img alt={"#"} src={"https://loremflickr.com/640/360"} />
+            <Img alt={"#"} src={"https://fakeimg.pl/600x400/"} />
           </div>
         </Lame>
       :
         <Lame className={style}>
           <div className={"img_headproduct"}>
-            <Img alt={"#"} classImg={"img_border img_rounded"} src={"https://loremflickr.com/640/360"} />
+            <Img alt={"#"} classImg={"img_border img_rounded"} src={"https://fakeimg.pl/600x400/"} />
           </div>
           <div className={"content_headproduct right_border"}>
             {children}

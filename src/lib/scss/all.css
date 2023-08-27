@@ -206,6 +206,12 @@ ul.list_link li, ol.list_link li {
   flex-direction: column;
 }
 
+pre.bloc-code {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border: 1px solid #16559f;
+}
+
 .cards {
   margin: 20px 5px 0;
   width: auto;
