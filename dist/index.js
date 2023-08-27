@@ -63,6 +63,12 @@ Object.defineProperty(exports, "Footer", {
     return _Footer.default;
   }
 });
+Object.defineProperty(exports, "GptCards", {
+  enumerable: true,
+  get: function get() {
+    return _GptCards.default;
+  }
+});
 Object.defineProperty(exports, "GptTabs", {
   enumerable: true,
   get: function get() {
@@ -171,4 +177,5 @@ var _ExposeProduct = _interopRequireDefault(require("./components/modules/Produc
 var _HeadBar = _interopRequireDefault(require("./components/modules/Navigation/HeadBar/HeadBar"));
 var _HeadProduct = _interopRequireDefault(require("./components/modules/Product/HeadProduct/HeadProduct"));
 var _Code = _interopRequireDefault(require("./components/base/Code"));
+var _GptCards = _interopRequireDefault(require("./components/modules/General/Cards/GptCards"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
