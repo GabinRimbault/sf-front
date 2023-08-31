@@ -1,7 +1,15 @@
 .tag{
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
   color: $color-w;
   background-color: $bg-default;
   margin: 0 5px;
+
+  a{
+    color: white
+  }
+
+  &.rounded{
+    border-radius: 20px !important;
+  }
 }

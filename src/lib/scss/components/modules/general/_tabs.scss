@@ -8,6 +8,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: flex-start;
+    border-bottom: 1px solid $grey-4;
 
     button{
       flex: 1;
@@ -18,6 +19,11 @@
       cursor: pointer;
 
       &.active{
+        background-color: $color-default;
+        color: $color-w;
+      }
+
+      &:hover{
         background-color: $color-default;
         color: $color-w;
       }

@@ -2,9 +2,8 @@
 //Default Color
 $color-w: #FFFFFF;
 $color-b: #000000;
-$color-grey: #e9ecef;
-$color-grey2: #f7f7f7;
 $color-default: #A4CAFD;
+$color-default-rgba: rgba(164, 202, 253, 0.3);
 
 //Color
 $primary-color: #16559f;
@@ -13,6 +12,13 @@ $secondary-color: #48c0fd;
 $teinte-secondary: rgba(72, 192, 253, 0.1);
 $tertiary-color: #9f2f16;
 $complementary: #f3c519;
+
+
+//Grey
+$grey-primary: #e9ecef;
+$grey-secondary: #f7f7f7;
+$grey-tertiary: #F9FAFB;
+$grey-4: #9BA3AF;
 
 //Link Color
 $link-color: #1f9f16;
@@ -23,6 +29,7 @@ $shadow-color: rgba(2,12,27,0.7);
 //Background Color
 $bg-default: #F0F0F0;
 $bg-secondary: #243776;
+$bg-tertiary: #F9FAFB;
 $bg-w: $color-w;
 
 //Border Color

@@ -11,7 +11,8 @@ function HeadBar(_ref) {
   let {
     classHeadBar,
     classLink = "liseret",
-    data
+    data,
+    icons
   } = _ref;
   const style = classHeadBar ? "headbar " + classHeadBar : "headbar";
   let listNav = null;
@@ -32,15 +33,15 @@ function HeadBar(_ref) {
     className: "logo_content"
   }, /*#__PURE__*/_react.default.createElement("i", {
     className: "fa-brands fa-drupal"
-  })), /*#__PURE__*/_react.default.createElement(_List.default, {
+  }), " SF"), /*#__PURE__*/_react.default.createElement(_List.default, {
     type: "ul",
     classLink: classLink,
     data: listNav
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "social_content"
-  }, /*#__PURE__*/_react.default.createElement("i", {
-    className: "fa-brands fa-instagram"
-  }), " ", /*#__PURE__*/_react.default.createElement("i", {
-    className: "fa-brands fa-snapchat"
-  }))));
+  }, icons ? /*#__PURE__*/_react.default.createElement(_List.default, {
+    classLink: "icons_headbar",
+    data: icons,
+    type: "ul"
+  }) : null)));
 }

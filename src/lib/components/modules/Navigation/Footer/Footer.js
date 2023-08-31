@@ -1,6 +1,7 @@
 export default function Footer({classFooter, children}) {
+  const style = classFooter !== undefined ? classFooter : undefined
   return (
-    <footer style={classFooter}>
+    <footer className={style}>
       {children}
     </footer>
   )

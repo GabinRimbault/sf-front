@@ -1,13 +1,35 @@
-.cards{
-  margin: 20px 5px 0;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  border-radius: 5px;
+@use "../../../utils/responsive" as responsives;
 
-  img{
-    width: 100%;
-    height: 100%;
+.gpt_cards{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  @include responsives.Tablet{
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+
+  .cards{
+    width: auto;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid $border-default;
+
+    @include responsives.Tablet{
+      margin: 0 10px;
+    }
+
+    &:hover{
+      box-shadow: 0 0 7px 0 rgba(0,0,0,.2);
+    }
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
   }
 }

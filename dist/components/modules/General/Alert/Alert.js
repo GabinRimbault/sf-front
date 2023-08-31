@@ -17,7 +17,8 @@ function Alert(_ref) {
     classAlert,
     children,
     name,
-    cross = true
+    cross = true,
+    additionalContent
   } = _ref;
   const idDel = (0, _react.useRef)("block");
   const style = classAlert !== undefined ? "alert " + classAlert : "alert";
@@ -28,12 +29,16 @@ function Alert(_ref) {
     ref: idDel,
     id: name,
     className: style
-  }, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_Content.default, {
+  }, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
+    className: "content_alert"
+  }, /*#__PURE__*/_react.default.createElement(_Content.default, {
     classContent: "text-alert"
   }, children), /*#__PURE__*/_react.default.createElement(_Content.default, {
     classContent: "cross-alert"
   }, cross ? /*#__PURE__*/_react.default.createElement("i", {
     onClick: handleDel,
     className: "fa-solid fa-xmark"
-  }) : ""))));
+  }) : "")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "content_additional"
+  }, additionalContent ? additionalContent : null))));
 }
