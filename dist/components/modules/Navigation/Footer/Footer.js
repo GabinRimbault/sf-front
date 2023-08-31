@@ -9,7 +9,8 @@ function Footer(_ref) {
     classFooter,
     children
   } = _ref;
+  const style = classFooter !== undefined ? classFooter : undefined;
   return /*#__PURE__*/React.createElement("footer", {
-    style: classFooter
+    className: style
   }, children);
 }

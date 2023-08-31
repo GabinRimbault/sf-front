@@ -2,6 +2,7 @@ header.headbar{
   background-color: $bg-w;
   color: $color-b;
   height: 70px;
+  border-bottom: 1px solid rgba(72, 192, 253, 0.3);
 
   nav{
     display: flex;
@@ -31,6 +32,12 @@ header.headbar{
         padding-left: 10px;
         padding-right: 10px;
         color: $color-b;
+
+        &.icons_headbar{
+          padding: 0 5px;
+          color: $secondary-color;
+          font-size: $font-large;
+        }
       }
     }
   }

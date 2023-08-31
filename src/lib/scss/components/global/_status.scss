@@ -49,6 +49,23 @@
   }
 }
 
+.grey{
+  color: $color-b;
+
+  &.bg-color{
+    background-color: $grey-tertiary;
+  }
+
+  &.border{
+    border: 1px solid $grey-4;
+  }
+
+  &.important{
+    border-top: 5px solid $grey-4;
+    border-radius: 0;
+  }
+}
+
 .white{
   color: $primary-color;
 

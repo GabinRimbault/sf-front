@@ -3,25 +3,42 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = WrapperExample;
-var _Wrapper = _interopRequireDefault(require("./base/Wrapper"));
-var _Title = _interopRequireDefault(require("./base/Title"));
-var _Lame = _interopRequireDefault(require("./base/Lame"));
+exports.default = void 0;
+var _prismjs = _interopRequireDefault(require("prismjs"));
+var _react = require("react");
+require("../scss/prism.css");
+var _Tag = _interopRequireDefault(require("./base/Tag"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function WrapperExample(_ref) {
+const WrapperExample = _ref => {
   let {
-    children,
-    code,
-    title
+    children
   } = _ref;
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_Lame.default, null, /*#__PURE__*/React.createElement(_Title.default, {
-    lvl: "h2",
-    classTitle: "heading type1 center"
-  }, title), /*#__PURE__*/React.createElement(_Wrapper.default, {
-    classWrapper: "wrapper_example"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "content_example"
-  }, children), /*#__PURE__*/React.createElement("div", {
+  (0, _react.useEffect)(() => {
+    _prismjs.default.highlightAll();
+  }, []);
+  return /*#__PURE__*/React.createElement("div", {
+    className: "wrapper_example"
+  }, children);
+};
+WrapperExample.Component = _ref2 => {
+  let {
+    children
+  } = _ref2;
+  return /*#__PURE__*/React.createElement("div", {
+    className: "component_example center"
+  }, children);
+};
+WrapperExample.Code = _ref3 => {
+  let {
+    children
+  } = _ref3;
+  return /*#__PURE__*/React.createElement("div", {
     className: "code_example"
-  }, /*#__PURE__*/React.createElement("pre", null, "List of props:", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("code", null, code))))));
-}
+  }, /*#__PURE__*/React.createElement(_Tag.default, {
+    classTag: "infos bg-color font-small"
+  }, "React"), /*#__PURE__*/React.createElement("pre", null, /*#__PURE__*/React.createElement("code", {
+    className: "language-javascript"
+  }, children)));
+};
+var _default = WrapperExample;
+exports.default = _default;
