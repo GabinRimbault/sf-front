@@ -7,6 +7,7 @@
 @import "./base/wrapper";
 @import "./base/lame";
 @import "./base/code";
+@import "./base/table";
 
 //Modules
 
@@ -29,6 +30,7 @@
 @import "modules/navigation/navbar";
 @import "modules/navigation/headbar";
 @import "modules/navigation/footer";
+@import "modules/navigation/sidebar";
 
 //Form
 @import "./form/input";

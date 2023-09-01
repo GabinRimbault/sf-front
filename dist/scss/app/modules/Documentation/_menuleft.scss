@@ -1,0 +1,11 @@
+.menuleft{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px;
+
+  div{
+    ul{
+      list-style: none;
+    }
+  }
+}
