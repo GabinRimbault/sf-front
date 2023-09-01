@@ -27,8 +27,9 @@ Table.HeadCell = ({ children }) => {
 }
 
 Table.Row = ({classRow, children }) => {
+    const style = classRow !== undefined ? classRow + " row_table" : "row_table"
     return(
-        <tr className={"row_table " + classRow}>{children}</tr>
+        <tr className={style}>{children}</tr>
     )
 }
 

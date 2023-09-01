@@ -221,6 +221,13 @@ pre.bloc-code {
   border: 1px solid #16559f;
 }
 
+table th, table td {
+  padding: 10px;
+}
+table tr {
+  border-bottom: 1px solid #9BA3AF;
+}
+
 .gpt_cards {
   display: flex;
   justify-content: center;
@@ -321,34 +328,14 @@ pre.bloc-code {
 }
 
 .bloc_information {
-  margin-top: 20px;
   box-shadow: 0 2px 15px -3px #000000;
   padding: 20px;
   background-color: #FFFFFF;
-  font-weight: bold;
+}
+.bloc_information div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.bloc_information i {
-  cursor: pointer;
-  font-size: 20px;
-}
-.bloc_information.infos {
-  border-bottom: 10px solid #76A9FA;
-  color: #76A9FA;
-}
-.bloc_information.success {
-  border-bottom: 10px solid #30C48D;
-  color: #30C48D;
-}
-.bloc_information.warning {
-  border-bottom: 10px solid #F9CA16;
-  color: #F9CA16;
-}
-.bloc_information.critical {
-  border-bottom: 10px solid #F87F7F;
-  color: #F87F7F;
 }
 
 .bloc_product {
@@ -526,6 +513,23 @@ footer ul li {
 }
 footer ul.social {
   display: flex;
+}
+
+.sidebar {
+  background-color: #F9FAFB;
+  display: inline-block;
+  padding: 25px 20px;
+}
+.sidebar li::marker {
+  content: none;
+}
+.sidebar li.sidebar-item {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar li a.sidebar-link {
+  margin-right: 35px;
+  margin-left: 5px;
 }
 
 input[type=text] {
