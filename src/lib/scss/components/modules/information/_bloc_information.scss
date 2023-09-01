@@ -1,35 +1,11 @@
 .bloc_information{
-  margin-top: 20px;
   box-shadow: 0 2px 15px -3px $color-b;
   padding: 20px;
   background-color: $color-w;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 
-  i{
-    cursor: pointer;
-    font-size: 20px;
-  }
-
-  &.infos{
-    border-bottom: 10px solid $infos;
-    color: $infos;
-  }
-
-  &.success{
-    border-bottom: 10px solid $success;
-    color: $success;
-  }
-
-  &.warning{
-    border-bottom: 10px solid $warning;
-    color: $warning;
-  }
-
-  &.critical{
-    border-bottom: 10px solid $critical;
-    color: $critical;
+  div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }

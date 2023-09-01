@@ -1,30 +1,24 @@
-import React from "react";
-import Wrapper from "../../../base/Wrapper.js";
+import React, { useState } from 'react';
+import {Wrapper} from "../../../../index";
 
-export default function BlocInformation({
-  name,
-  classBlocInformation,
-  type = "infos",
-  child1,
-  child2,
-  drop = true,
-}) {
-  const style =
-    classBlocInformation !== undefined
-      ? classBlocInformation + " bloc_information"
-      : "bloc_information";
+const BlocInformation = ({ titre, children }) => {
+    const [isOpen, setIsOpen] = useState(false);
 
-  return (
-    <Wrapper>
-      <div id={name} className={style + " " + type}>
-        {child1}
-        {drop ? (
-          <i className="fa-solid fa-chevron-down"></i>
-        ) : (
-          <i className="fa-solid fa-chevron-up"></i>
-        )}
-      </div>
-      <div className="bloc_content">{child2}</div>
-    </Wrapper>
-  );
-}
+    const collapse = () => {
+        setIsOpen(!isOpen);
+    };
+
+    return (
+        <Wrapper>
+            <div className={"bloc_information"} onClick={collapse}>
+                <div>
+                    <h2>{titre}</h2>
+                    <span>{isOpen ? <i className="fa-solid fa-chevron-up"></i> : <i className="fa-solid fa-chevron-down"></i>}</span>
+                </div>
+                {isOpen && <div className="contenu-collapse">{children}</div>}
+            </div>
+        </Wrapper>
+    );
+};
+
+export default BlocInformation;
