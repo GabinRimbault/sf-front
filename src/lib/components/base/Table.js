@@ -16,7 +16,7 @@ const Table = ({classTable, children}) => {
 
 Table.Head = ({ classHeading, children }) => {
     return(
-        <tr class={"heading_table " + classHeading}>{children}</tr>
+        <tr className={"heading_table " + classHeading}>{children}</tr>
     )
 }
 
@@ -28,7 +28,7 @@ Table.HeadCell = ({ children }) => {
 
 Table.Row = ({classRow, children }) => {
     return(
-        <tr class={"row_table " + classRow}>{children}</tr>
+        <tr className={"row_table " + classRow}>{children}</tr>
     )
 }
 
