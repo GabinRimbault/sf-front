@@ -2,10 +2,21 @@
   background-color: $grey-tertiary;
   display: inline-block;
   padding: 25px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
 
   li{
+    padding: 5px;
+    margin-top: 5px;
     &::marker{
       content: none;
+    }
+
+    &:hover{
+      background-color: $grey-5;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
     }
 
     &.sidebar-item{

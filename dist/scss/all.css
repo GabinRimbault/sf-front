@@ -229,35 +229,35 @@ table tr {
 }
 
 .gpt_cards {
-  display: flex;
-  justify-content: center;
   margin-top: 15px;
-  flex-wrap: wrap;
 }
 @media screen and (min-width: 768px) {
   .gpt_cards {
+    display: flex;
+    justify-content: center;
     flex-wrap: nowrap;
-    margin: 0;
   }
 }
-.gpt_cards .cards {
+.gpt_cards a.cards {
   width: auto;
+  height: 100%;
   margin: 10px 0;
   display: flex;
   flex-direction: column;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #9f2f16;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 15px -3px #9BA3AF;
 }
 @media screen and (min-width: 768px) {
-  .gpt_cards .cards {
+  .gpt_cards a.cards {
     margin: 0 10px;
   }
 }
-.gpt_cards .cards:hover {
+.gpt_cards a.cards:hover {
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
-.gpt_cards .cards img {
+.gpt_cards a.cards img {
   width: 100%;
   height: 100%;
 }
@@ -519,9 +519,21 @@ footer ul.social {
   background-color: #F9FAFB;
   display: inline-block;
   padding: 25px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.sidebar li {
+  padding: 5px;
+  margin-top: 5px;
 }
 .sidebar li::marker {
   content: none;
+}
+.sidebar li:hover {
+  background-color: #F3F4F6;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .sidebar li.sidebar-item {
   display: flex;
