@@ -8,7 +8,6 @@ var _react = _interopRequireDefault(require("react"));
 var _Content = _interopRequireDefault(require("../../../base/Content"));
 var _Title = _interopRequireDefault(require("../../../base/Title"));
 var _reactRouterDom = require("react-router-dom");
-var _Img = _interopRequireDefault(require("../../../base/Img"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Cards = _ref => {
   let {

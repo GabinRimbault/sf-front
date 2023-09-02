@@ -1,23 +1,23 @@
 @use "../../../utils/responsive" as responsives;
 
 .gpt_cards{
-  display: flex;
-  justify-content: center;
   margin-top: 15px;
-  flex-wrap: wrap;
   @include responsives.Tablet{
+    display: flex;
+    justify-content: center;
     flex-wrap: nowrap;
-    margin: 0;
   }
 
-  .cards{
+  a.cards{
     width: auto;
+    height: 100%;
     margin: 10px 0;
     display: flex;
     flex-direction: column;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid $border-default;
+    border: 1px solid $grey-primary;
+    box-shadow: 0 2px 15px -3px $grey-4;
 
     @include responsives.Tablet{
       margin: 0 10px;

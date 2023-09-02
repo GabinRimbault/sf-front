@@ -1,9 +1,33 @@
-# FrontEnd - SF Project 👋
+# 🚀 Welcome to the SF Project - FrontEnd 👋
 
 [![Branch](https://img.shields.io/static/v1?label=Branch&message=master&color=blue)](https://gitlab.com/GabinRimbault/template_project)  [![Version](https://img.shields.io/static/v1?label=Version&message=1.0.5&color=blue)](https://gitlab.com/GabinRimbault/template_project) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Frimbault_gabin)](https://twitter.com/rimbault_gabin)
 
 ## New VERSION
 - [1.0.5](Doc/v1.0.5.md)
+
+Are you looking to add a new dimension to your React projects? Look no further! Our React library is the ultimate tool to boost your front-end development.
+
+Are you looking to add a new dimension to your React projects? Look no further! Our React library is the ultimate tool to boost your front-end development.
+
+🌟 **Why choose our React library?** 🌟
+
+- **Unmatched Performance:** Thanks to cutting-edge optimizations, our components react instantly, providing a seamless user experience.
+- **Infinitely Customizable:** Easily modify and adapt our components to align perfectly with your creative vision.
+- **Active Support:** Our team of experienced developers is here to answer your questions and resolve your issues in a flash.
+
+⚡ **Get started now!** ⚡
+
+Integrate our React library into your projects and discover how it can revolutionize your web development approach.
+
+To get started, follow the steps below:
+1. **Easy Installation:** Add our library to your project with just a few simple commands.
+2. **Quick Integration:** Use our React components in your applications in no time.
+3. **Unlimited Customization:** Get creative by adapting our components to your specific needs.
+
+Stay tuned for the release of our comprehensive documentation, which will guide you through all the library's features. We're working hard to provide you with the resources you need to make the most of our SF-Project FrontEnd React Library.
+
+Join the front-end development revolution with the React Library. The future of your projects starts here! 💪
+
 
 ## Install
 
