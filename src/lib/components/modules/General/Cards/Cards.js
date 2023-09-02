@@ -1,28 +1,31 @@
 import React from "react";
 import Content from "../../../base/Content";
 import Title from "../../../base/Title";
+import {Link} from "react-router-dom";
 
-const Cards = ({classCards, children}) => {
+const Cards = ({link = "#", classCards, children}) => {
   const style = classCards !== undefined ? classCards + " cards" : "cards"
 
   return (
     <>
-      <div className={style}>
+      <Link to={link} className={style}>
         {
           children
         }
-      </div>
+      </Link>
     </>
   );
 }
 
-Cards.Header = ({ title = "h2", children }) => {
-  return (
-    <div className="cards-header">
-      <Title lvl={title}>{children}</Title>
-    </div>
-  );
+Cards.Header = ({ src, title = "h2", children }) => {
+    return (
+        <div className="cards-header">
+            {src !== undefined && <img src={src} alt="Image" />}
+            <Title lvl={title}>{children}</Title>
+        </div>
+    );
 };
+
 
 Cards.Body = ({ children }) => {
   return (
