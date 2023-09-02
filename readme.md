@@ -7,8 +7,6 @@
 
 Are you looking to add a new dimension to your React projects? Look no further! Our React library is the ultimate tool to boost your front-end development.
 
-Are you looking to add a new dimension to your React projects? Look no further! Our React library is the ultimate tool to boost your front-end development.
-
 🌟 **Why choose our React library?** 🌟
 
 - **Unmatched Performance:** Thanks to cutting-edge optimizations, our components react instantly, providing a seamless user experience.
