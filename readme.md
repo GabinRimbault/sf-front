@@ -1,11 +1,9 @@
 # 🚀 Welcome to the SF Project - FrontEnd 👋
 
-[![Branch](https://img.shields.io/static/v1?label=Branch&message=master&color=blue)](https://gitlab.com/GabinRimbault/template_project)  [![Version](https://img.shields.io/static/v1?label=Version&message=1.0.5&color=blue)](https://gitlab.com/GabinRimbault/template_project) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Frimbault_gabin)](https://twitter.com/rimbault_gabin)
+[![Branch](https://img.shields.io/static/v1?label=Branch&message=master&color=blue)](https://gitlab.com/GabinRimbault/template_project)  [![Version](https://img.shields.io/static/v1?label=Version&message=1.0.6&color=blue)](https://gitlab.com/GabinRimbault/template_project) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Frimbault_gabin)](https://twitter.com/rimbault_gabin)
 
 ## New VERSION
-- [1.0.5](Doc/v1.0.5.md)
-
-Are you looking to add a new dimension to your React projects? Look no further! Our React library is the ultimate tool to boost your front-end development.
+- [1.0.6](Doc/v1.0.6.md)
 
 Are you looking to add a new dimension to your React projects? Look no further! Our React library is the ultimate tool to boost your front-end development.
 
@@ -71,8 +69,23 @@ Start the server
   npm run start
 ```
 
-## Colors
+# Project Roadmap
 
+Follow our roadmap to discover the exciting upcoming milestones of our project!
+
+## Version 1.1.0 (Soon)
+
+- 📖 **Complete Documentation:** Finalizing the comprehensive project documentation.
+- 🐛 **Bug Fixes:** Addressing bugs reported by our dedicated users.
+
+## Version 1.2.0 (Upcoming)
+
+- 🛠️ **Optimizations:** Implementing optimizations to enhance performance.
+- 🚀 **New Composants:** Introducing new components to improve the user experience.
+
+Stay tuned for more details on each version as we progress in our exciting development journey! 🚀
+
+## Colors
 
 | Variables        | Hexadécimal | Colors                                                   |
 |:-----------------|:------------|:---------------------------------------------------------|
@@ -87,18 +100,6 @@ Start the server
 | `$infos`           | #055160    | ![#055160](https://placehold.co/30x30/055160/055160.png) |
 
 To see other color variables, please refer to the scss variables file.
-
-
-## Features
-
-- Simple Framework
-- Components SCSS
-- Components React
-
-## Roadmap
-
-- v 1.1.0
-    - Create Documentation
 
 
 ## Authors
