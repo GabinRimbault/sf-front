@@ -1,0 +1,35 @@
+.carousel {
+  margin-top: 15px;
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+
+  .carousel-navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .carousel-button {
+    background-color: rgba(155, 163, 175, 0.5);
+    color: $color-w;
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 20px;
+  }
+
+  img {
+    width: 960px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0.9;
+  }
+}
+

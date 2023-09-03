@@ -2,6 +2,34 @@ ul, ol {
   margin: 0;
   padding: 0;
 
+  &.gpt-list{
+    list-style: none;
+    display: inline-block;
+
+    li{
+      border: 1px solid $grey-4;
+      padding: 5px 10px;
+      cursor: pointer;
+
+      &:hover{
+        background-color: $grey-5;
+        a{
+          color: $primary-color;
+        }
+      }
+
+      &:first-child{
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+      }
+
+        &:last-child{
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+  }
+
 
   &.list {
     list-style: none;
