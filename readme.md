@@ -2,8 +2,8 @@
 
 [![Branch](https://img.shields.io/static/v1?label=Branch&message=master&color=blue)](https://gitlab.com/GabinRimbault/template_project)  [![Version](https://img.shields.io/static/v1?label=Version&message=1.0.6&color=blue)](https://gitlab.com/GabinRimbault/template_project) [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Frimbault_gabin)](https://twitter.com/rimbault_gabin)
 
-## Community
-- We need your feedback and support for the [future](https://github.com/GabinRimbault/sf-front/discussions/4).
+## Community 🚀
+- We need your feedback and support for the [future](https://github.com/GabinRimbault/sf-front/discussions/4) 🚀.
 
 ## New VERSION
 - [1.0.6](Doc/v1.0.6.md)
