@@ -3,6 +3,12 @@ import React, { useState, useEffect, Children, useCallback } from 'react';
 export default function Carousel({ children, slideInterval = 5000 }) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = Children.map(children, (child) => child.props.src);
+    const [activeSlide, setActiveSlide] = useState(currentIndex);
+
+    const handleSlideChange = (index) => {
+        setCurrentIndex(index);
+        setActiveSlide(index);
+    };
 
     const goToPreviousSlide = () => {
         setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
@@ -33,6 +39,16 @@ export default function Carousel({ children, slideInterval = 5000 }) {
                     <i className="fas fa-chevron-right"></i>
                 </button>
             </div>
+            <div className="slide-indicators">
+                {images.map((_, index) => (
+                    <div
+                        key={index}
+                        className={`slide-indicator ${index === activeSlide ? 'active' : ''}`}
+                        onClick={() => handleSlideChange(index)}
+                    ></div>
+                ))}
+            </div>
         </div>
+
     );
 }
