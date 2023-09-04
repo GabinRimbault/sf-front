@@ -5,9 +5,6 @@
 ## Community 🚀
 - We need your feedback and support for the [future](https://github.com/GabinRimbault/sf-front/discussions/4) 🚀.
 
-## Community 🚀
-- We need your feedback and support for the [future](https://github.com/GabinRimbault/sf-front/discussions/4) 🚀.
-
 ## New VERSION
 - [1.0.7](Doc/v1.0.7.md)
 
