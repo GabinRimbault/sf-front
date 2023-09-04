@@ -412,6 +412,32 @@ table tr {
   opacity: 0.9;
 }
 
+.accordion {
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.accordion .accordion-title {
+  background-color: #F3F4F6;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.accordion .accordion-title .title-content {
+  flex-grow: 1;
+}
+.accordion .accordion-title .icon-container {
+  margin-left: auto;
+}
+.accordion .accordion-body {
+  padding: 10px;
+  display: none;
+}
+.accordion.open .accordion-body {
+  display: block;
+}
+
 .bloc_information {
   box-shadow: 0 2px 15px -3px #000000;
   padding: 20px;
