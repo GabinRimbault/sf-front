@@ -1,0 +1,30 @@
+.accordion {
+  border: 1px solid $grey-primary;
+  border-radius: 5px;
+  overflow: hidden;
+
+  .accordion-title {
+    background-color: $grey-5;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+
+    .title-content {
+      flex-grow: 1;
+    }
+
+    .icon-container {
+      margin-left: auto;
+    }
+  }
+
+  .accordion-body {
+    padding: 10px;
+    display: none;
+  }
+
+  &.open .accordion-body {
+    display: block;
+  }
+}
